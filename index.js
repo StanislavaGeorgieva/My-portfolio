@@ -36,4 +36,17 @@ navLinks.forEach(link => {
 // Show the home section by default
 showSection('home');
 
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('click');
+    const navLinks = document.querySelectorAll('nav a');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (menuToggle.checked) {
+                menuToggle.checked = false; // Скрива менюто при клик на линк
+            }
+        });
+    });
+});
+
 
