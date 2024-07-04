@@ -36,17 +36,10 @@ navLinks.forEach(link => {
 // Show the home section by default
 showSection('home');
 
-document.addEventListener('DOMContentLoaded', () => {
-    const menuToggle = document.getElementById('click');
-    const navLinks = document.querySelectorAll('nav a');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            if (menuToggle.checked) {
-                menuToggle.checked = false; // Скрива менюто при клик на линк
-            }
-        });
-    });
-});
-
+// Hide the dashboard menu after 2 seconds on mobile devices
+if (window.innerWidth <= 768) {
+    setTimeout(() => {
+        menu.style.display = 'none';
+    }, 2000);
+}
 
