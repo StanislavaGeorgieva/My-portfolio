@@ -230,7 +230,7 @@ section {
     }
 
     body {
-        background: linear-gradient(180deg, rgb(255, 255, 255) 35%, #02153f 10%);
+        background: linear-gradient(180deg, #457b9d 35%, #1d3557 10%);
     }
 
     .menu {
