@@ -30,16 +30,18 @@ navLinks.forEach(link => {
         e.preventDefault();
         const sectionId = e.target.getAttribute('data-section');
         showSection(sectionId);
+        
+        // Скрива менюто при клик на линк
+        if (check.checked) {
+            check.checked = false;
+            header.style.backgroundColor = "transparent";
+            logo.style.color = "#02153f";
+            menu.style.color = "#02153f";
+        }
     });
 });
 
 // Show the home section by default
 showSection('home');
 
-// Hide the dashboard menu after 2 seconds on mobile devices
-if (window.innerWidth <= 768) {
-    setTimeout(() => {
-        menu.style.display = 'none';
-    }, 2000);
-}
 
