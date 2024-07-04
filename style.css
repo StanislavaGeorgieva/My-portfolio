@@ -526,57 +526,15 @@ section {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text and icons */
 }
 
 .contact h2 {
     font-size: 28px;
     color: #02153f;
     margin-bottom: 20px;
-    text-align: center;
 }
 
-.contact form {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.submit-btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #02153f;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.submit-btn:hover {
-    background-color: #03317e;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {

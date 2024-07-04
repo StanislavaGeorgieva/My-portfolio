@@ -16,7 +16,7 @@
                 <i class="bi bi-list"></i>
             </div>
         </label>
-        <nav>
+        <nav id="navbar">
             <a href="#" data-section="home">Home</a>
             <a href="#" data-section="about">About</a>
             <a href="#" data-section="skills">Skills</a>
@@ -47,7 +47,6 @@
                         <a href="https://www.linkedin.com/in/stanislava-georgieva-71686128a/" target="_blank"><i class="bi bi-linkedin"></i></a>
                         <a href="https://www.facebook.com/stanislava.radeva.9/?locale=bg_BG" target="_blank"><i class="bi bi-facebook"></i></a>
                         <a href="https://www.instagram.com/miss_stanislava/" target="_blank"><i class="bi bi-instagram"></i></a>
-                        
                     </div>
                     <a href="Stanislava_CV.pdf" class="cv-btn" download="Stanislava_CV.pdf">Download CV</a>
                 </div>
@@ -57,7 +56,13 @@
         <section id="about" class="content-section" style="display:none;">
             <div class="about">
                 <h2>About Me</h2>
-                <p>Hello! I'm Stanislava, a passionate junior front-end developer with a love for creating intuitive and engaging user experiences. I have a background in web development and have worked on various projects, honing my skills in HTML, CSS, and JavaScript. I am constantly learning and exploring new technologies to improve my craft.</p>
+                <p>Hello ! I am an enthusiastic professional ready to make a career switch into front-end development.
+                    I have a strong passion for creating intuitive and engaging user experiences and have
+                    focused on mastering JavaScript and other essential skills for this role. Along with my
+                    technical knowledge, I bring valuable soft skills such as excellent problem-solving abilities,
+                    effective communication, and a collaborative team mindset. I am highly adaptable, a quick
+                    learner, and have a keen eye for detail. This career change is driven by my deep passion for
+                    technology and innovation. I am excited to apply my skills in front-end development.</p>
                 <p>In my free time, I enjoy reading tech blogs, participating in coding challenges, and contributing to open-source projects. I believe in the power of collaboration and am always excited to work with like-minded individuals on exciting projects.</p>
                 <p>Thank you for visiting my portfolio. Feel free to explore my work and reach out if you'd like to connect!</p>
             </div>
@@ -87,10 +92,6 @@
                         <h3>CSS</h3>
                         <p>Proficient in creating responsive and visually appealing designs using CSS and frameworks like Bootstrap.</p>
                     </div>
-
-
-
-
                     <div class="skill">
                         <i class="bi bi-git"></i>
                         <h3>Git</h3>
@@ -100,13 +101,14 @@
                         <i class="bi bi-database"></i>
                         <h3>Firebase</h3>
                         <p>Knowledgeable in using Firebase for real-time data storage and authentication.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="bi bi-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                        <p>Skilled in utilizing Bootstrap to build responsive and modern web interfaces quickly.</p>
+                    </div>
                 </div>
-                <div class="skill">
-                    <i class="bi bi-bootstrap"></i>
-                    <h3>Bootstrap</h3>
-                    <p>Skilled in utilizing Bootstrap to build responsive and modern web interfaces quickly.</p>
-                </div>
-
+            </div>
         </section>
 
         <section id="portfolio" class="content-section" style="display:none;">
@@ -116,29 +118,30 @@
                     <div class="portfolio-item">
                         <img src="EventCalendar.png" alt="Project 1">
                         <h3>EventCalendar</h3>
-                        <a>
-                            <p style="font-size: smaller;">
-                                Tech Stack: React, Firebase, Tailwind CSS, DaisyUI<br>
-                                Real-Time Updates: Synchronize tasks instantly with Firebase<br>
-                                Responsive Design: Optimized for all devices using Tailwind CSS<br>
-                                User Authentication: Secure login and registration with Firebase
-                            </p>
-                        </a>
+                        <p style="font-size: smaller;">
+                            Tech Stack: React, Firebase, Tailwind CSS, DaisyUI<br>
+                            Real-Time Updates: Synchronize tasks instantly with Firebase<br>
+                            Responsive Design: Optimized for all devices using Tailwind CSS<br>
+                            User Authentication: Secure login and registration with Firebase
+                        </p>
                     </div>
                     <div class="portfolio-item">
                         <img src="TravelForum.png" alt="Project 2">
                         <h3>TravelForum</h3>
-                        <p style="font-size: smaller;">Tech Stack: React, Firebase, Chakra UI
-                            Features: Real-time discussions, user authentication, topic creation
-                            Design: Modern, accessible UI with Chakra UI</p>
+                        <p style="font-size: smaller;">
+                            Tech Stack: React, Firebase, Chakra UI<br>
+                            Features: Real-time discussions, user authentication, topic creation<br>
+                            Design: Modern, accessible UI with Chakra UI
+                        </p>
                     </div>
                     <div class="portfolio-item">
                         <img src="Giphy.png" alt="Project 3">
                         <h3>Giphy</h3>
                         <p style="font-size: smaller;">
-                            Tech Stack: Vanilla JS, CSS, HTML
-                            Features: Search GIFs, display trending GIFs
-                            Design: Simple, responsive UI with CSS</p>
+                            Tech Stack: Vanilla JS, CSS, HTML<br>
+                            Features: Search GIFs, display trending GIFs<br>
+                            Design: Simple, responsive UI with CSS
+                        </p>
                     </div>
                     <div class="portfolio-item">
                         <img src="Mauritius.png" alt="Project 4">
@@ -148,25 +151,23 @@
                 </div>
             </div>
         </section>
-
         <section id="contact" class="content-section" style="display:none;">
             <div class="contact">
                 <h2>Contact Me</h2>
-                <form id="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
+                <div class="social" style="display: flex; justify-content: center;">
+                    <a href="https://www.linkedin.com/in/stanislava-georgieva-71686128a/" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="mailto:miss_stanislava@yahoo.com">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                    <a href="https://www.facebook.com/stanislava.radeva.9/?locale=bg_BG" target="_blank">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/miss_stanislava/" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
