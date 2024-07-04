@@ -35,3 +35,23 @@ navLinks.forEach(link => {
 
 // Show the home section by default
 showSection('home');
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('click');
+    const nav = document.querySelector('nav');
+    
+    function closeMenu() {
+        if (menuToggle.checked) {
+            menuToggle.checked = false;
+        }
+    }
+
+    let closeMenuTimeout;
+    nav.addEventListener('mouseenter', () => {
+        clearTimeout(closeMenuTimeout);
+    });
+
+    nav.addEventListener('mouseleave', () => {
+        closeMenuTimeout = setTimeout(closeMenu, 3000); // Задаваме времето на 3 секунди
+    });
+});
