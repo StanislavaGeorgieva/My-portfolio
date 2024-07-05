@@ -315,8 +315,8 @@ section {
     }
 
     .blue-bg img {
-        width: 100%; /* Приспособява изображението в рамката */
-        height: 100%; /* Приспособява изображението в рамката */
+        width: 100%; 
+        height: 100%; 
     }
 }
 
@@ -526,7 +526,7 @@ section {
     background: #a8dadc;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center text and icons */
+    text-align: center; 
 }
 
 .contact h2 {
