@@ -124,9 +124,9 @@ section {
 /* IMAGE */
 
 .images {
-    width: 25em; /* Намалено изображение */
-    height: 25em; /* Намалено изображение */
-    border-radius: 20%; /* Създава леко елипсовидна форма */
+    width: 25em; 
+    height: 25em; 
+    border-radius: 20%; 
     margin: auto;
     display: flex;
     justify-content: center;
@@ -136,42 +136,42 @@ section {
 .blue-bg-outer {
     width:fit-content;
     height: fit-content;
-    border-radius: 20%; /* Възможност за същата форма като изображението */
-    background: #fff; /* Бяла рамка около синята рамка */
+    border-radius: 20%; 
+    background: #fff; 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px; /* Бяла рамка около синята рамка */
+    padding: 5px;
     box-sizing: border-box;
 }
 
 .white-bg {
     width: 100%;
     height: 100%;
-    border-radius: 20%; /* Възможност за същата форма като изображението */
-    background: #a8dadc; /* Синя рамка */
+    border-radius: 20%; 
+    background: #a8dadc;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px; /* Бяла рамка около синята рамка */
+    padding: 10px;
     box-sizing: border-box;
 }
 
 .blue-bg {
     width: 100%;
     height: 100%;
-    border-radius: 20%; /* Възможност за същата форма като изображението */
+    border-radius: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Актуализирани стилове за изображението */
+
 .blue-bg img {
-    width: 90%; /* Приспособява изображението в рамката */
-    height: 90%; /* Приспособява изображението в рамката */
-    border-radius: 20%; /* Създава същата форма на изображението като рамките */
-    object-fit: cover; /* Уверява се, че изображението е без изкривяване */
+    width: 90%; 
+    height: 90%; 
+    border-radius: 20%; 
+    object-fit: cover; 
 }
 
 /* BUTTON */
@@ -275,7 +275,7 @@ section {
         margin: 0 1rem;
     }
     .images {
-        min-width: 15em;
+        min-width: 20em;
     }
 
     .blue-bg-outer {
