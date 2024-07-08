@@ -269,6 +269,7 @@ section {
         align-items: start;
     }
 }
+
 @media only screen and (max-width: 480px) {
     section {
         margin: 0 1rem;
@@ -278,19 +279,19 @@ section {
     }
 
     .blue-bg-outer {
-        width: 18em; /* Намалена ширина */
-        height: 18em; /* Намалена височина */
+        width: 24em;
+        height: 24em;
         margin: auto;
     }
 
     .white-bg {
-        width: 15.875em; /* Намалена ширина */
-        height: 15.875em; /* Намалена височина */
+        width: 16.875em;
+        height: 16.875em;
     }
 
     .blue-bg {
-        width: 11.75em; /* Намалена ширина */
-        height: 11.75em; /* Намалена височина */
+        width: 15.75em;
+        height: 15.75em;
     }
 }
 
@@ -299,18 +300,18 @@ section {
         height: 17em;
     }
     .blue-bg-outer {
-        width: 14em; /* Намалена ширина */
-        height: 14em; /* Намалена височина */
+        width: 18em;
+        height: 18em;
     }
 
     .white-bg {
-        width: 12em; /* Намалена ширина */
-        height: 12em; /* Намалена височина */
+        width: 15em;
+        height: 15em;
     }
 
     .blue-bg {
-        width: 10em; /* Намалена ширина */
-        height: 10em; /* Намалена височина */
+        width: 13em;
+        height: 13em;
     }
 
     .blue-bg img {
@@ -318,7 +319,6 @@ section {
         height: 100%; 
     }
 }
-
 
 /* Add styles for the about section */
 .about {
